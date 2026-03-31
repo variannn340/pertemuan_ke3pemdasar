@@ -8,7 +8,7 @@ float Rata_rata(float a, float b){
 string Status_lulus(float r){
     if (r >= 60)
         if(r > 80){
-            return "Lulus Cumlade";
+            return "Lulus Cumlaude";  // tambah huruf 'u'
         }
         else{
             return "Lulus Baik";
