@@ -6,7 +6,7 @@ float Rata_rata(float a, float b){
 }
 
 string Status_lulus(float r){
-    if (r >= 60)
+    if (r >= 55)
         return "Lolos";
     else
         return "Gagal";
@@ -16,7 +16,7 @@ string Grade(float r){
     if (r >= 90) return "A";
     else if (r >= 80) return "B";
     else if (r >= 70) return "C";
-    else if (r >= 60) return "D";
+    else if (r >= 55) return "D";
     else return "E";
 }
 
@@ -30,7 +30,7 @@ int main(){
     cin >> nilMT;
 
     //rerata = (nilBI+nilMT)/2;
-    //if (rerata >= 60)
+    //if (rerata >= 55)
     //    status = "Lolos";
     //else
     //  status = "Gagal";
