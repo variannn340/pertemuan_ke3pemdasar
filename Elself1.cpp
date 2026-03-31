@@ -12,6 +12,14 @@ string Status_lulus(float r){
         return "Gagal";
 }
 
+string Grade(float r){
+    if (r >= 90) return "A";
+    else if (r >= 80) return "B";
+    else if (r >= 70) return "C";
+    else if (r >= 60) return "D";
+    else return "E";
+}
+
 int main(){
     float nilBI,nilMT,rerata;
     string status;
